@@ -1,5 +1,5 @@
 Const HKEY_LOCAL_MACHINE = &H80000002
-strComputer = "dw2-ademin"
+strComputer = "mycomputer"
 Set objRegistry = GetObject("winmgmts:\\" & strComputer & "\root\default:StdRegProv")
 strKeyPath = "System\CurrentControlSet\Services\lanmanserver\parameters"
 strValueName = "srvcomment"
